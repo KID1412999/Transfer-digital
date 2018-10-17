@@ -18,5 +18,5 @@ def convert(t):
         w=w[:-2]
     w=w.replace('一十','十')
     print(w)
-    if name='__main__':
+    if __name__='__main__':
         convert(1020160)
